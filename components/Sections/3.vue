@@ -1,12 +1,10 @@
 <template>
-  <div class="content" id="wallet">
-    <div class="mx-0 md:mx-auto text-left md:text-center">
-      <h1>Who is using Hive Plug & Play?</h1>
-      <span
-        >Spreuke is a tool for developers to easily build and deploy dApps on
-        the Hive blockchain.</span
-      >
-    </div>
+  <Screen
+    title="Who is using Hive Plug & Play?"
+    bio="Spreuke is a tool for developers to easily build and deploy dApps on
+        the Hive blockchain."
+    id="wallet"
+  >
     <div class="mt-24 flex justify-start md:justify-center">
       <img
         src="peakd.svg"
@@ -15,7 +13,7 @@
       />
       <img src="podping.svg" class="w-5/12 md:w-auto h-5/12 md:h-auto" alt="" />
     </div>
-  </div>
+  </Screen>
 </template>
 
 <script>

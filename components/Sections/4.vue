@@ -1,20 +1,20 @@
 <template>
-  <div class="content" id="api">
-    <div class="mx-0 md:mx-auto text-left md:text-center">
-      <h1>Our Protocols</h1>
-      <span
-        >Features you can freely add to your dApp, available on Hive Plug & Play
-        right now.
-      </span>
-    </div>
+  <Screen
+    title="Our Protocols"
+    bio="Features you can freely add to your dApp, available on Hive Plug & Play
+        right now."
+    id="api"
+  >
     <CardExtended
       title="Polls"
       description="Features you can freely add to your dApp, available on Hive Plug & Play right now."
       background="#EFF0F9;"
       accent="#0080FF"
       image="img6.svg"
+      apiLink="https://plug-play.imwatsi.com/docs#/polls"
+      opsLink="/integration-polls"
     />
-  </div>
+  </Screen>
 </template>
 
 <script>

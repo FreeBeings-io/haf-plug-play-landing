@@ -61,7 +61,7 @@ body {
 }
 
 .wrap {
-  @apply mx-5 md:mx-44 my-10;
+  @apply m-5 md:mx-44;
 }
 
 .frame1 {
@@ -75,5 +75,11 @@ body {
   top: -2.5rem;
   filter: blur(25rem);
   z-index: 1;
+}
+
+.brand-gradient {
+  background: -webkit-linear-gradient(78.18deg, #000000 8.97%, #ff0000 72.35%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 </style>

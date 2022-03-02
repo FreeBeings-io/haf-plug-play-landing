@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav id="nav">
     <div class="container mx-auto">
       <div class="flex items-center justify-between">
         <div>
@@ -103,14 +103,46 @@ export default {
       ],
     };
   },
+  methods: {
+    handleScroll() {
+      let header = document.getElementById("nav");
+      if (
+        window.scrollY > 100 &&
+        !header.className.includes("bg-blur") &&
+        !header.className.includes("shadow-lg")
+      ) {
+        header.classList.add("bg-blur");
+        header.classList.add("shadow-lg");
+      } else if (window.scrollY < 100) {
+        header.classList.remove("bg-blur");
+        header.classList.remove("shadow-lg");
+      }
+    },
+  },
+  created() {
+    if (process.client) {
+      window.addEventListener("scroll", this.handleScroll);
+    }
+  },
+  destroyed() {
+    if (process.client) {
+      window.removeEventListener("scroll", this.handleScroll);
+    }
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 nav {
-  @apply flex justify-between items-center;
-  z-index: 5;
-  position: relative;
+  @apply flex justify-between items-center transition-all duration-500 ease-in-out relative md:fixed h-auto md:h-24;
+  z-index: 555;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  &.bg-blur {
+    backdrop-filter: blur(400px);
+  }
   .items {
     @apply flex-col align-middle pb-4 md:pb-0 md:flex md:justify-end md:flex-row;
     a {

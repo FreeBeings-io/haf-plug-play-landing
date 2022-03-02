@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="content">
-      <div class="card-start mb-5 md:mb-52">
+      <div class="card-start mb-5 md:mb-44">
         <h1>Get started with Hive today</h1>
         <p>
           Spreuke is a tool for developers to easily build and deploy dApps on
@@ -78,7 +78,7 @@ export default {};
       @apply hidden md:block;
       position: absolute;
       left: 30%;
-      top: 60%;
+      top: 56%;
     }
   }
 }

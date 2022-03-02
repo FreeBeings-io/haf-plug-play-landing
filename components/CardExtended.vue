@@ -6,14 +6,22 @@
         <span>{{ description }}</span>
       </div>
       <div class="flex my-10 md:my-0">
-        <button :style="'background-color:' + accent">
+        <a
+          :style="'background-color:' + accent"
+          :href="apiLink"
+          target="_blank"
+        >
           <img src="document-icon.svg" alt="" />
           API Documentation
-        </button>
-        <button :style="'border: 2px solid' + accent">
+        </a>
+        <a
+          :style="'border: 2px solid' + accent"
+          :href="opsLink"
+          target="_blank"
+        >
           <img src="volume-icon.svg" alt="" />
           Broadcast Ops
-        </button>
+        </a>
       </div>
     </div>
     <div>
@@ -30,6 +38,8 @@ export default {
     description: String,
     background: String,
     accent: String,
+    apiLink: String,
+    opsLink: String,
   },
 };
 </script>
@@ -51,8 +61,8 @@ export default {
     color: #767676;
     @apply text-base md:text-lg;
   }
-  button {
-    @apply mt-0 md:mt-16 py-2 px-2 md:py-4 md:px-8 flex items-center text-xs md:text-base transition-all duration-500 ease-in-out;
+  a {
+    @apply mt-0 md:mt-16 py-2 px-2 md:py-4 md:px-8 flex items-center text-xs md:text-base transition-all duration-500 ease-in-out cursor-pointer;
     border-radius: 5px;
     &:hover {
       @apply opacity-70;
@@ -61,10 +71,10 @@ export default {
       @apply mr-2;
     }
   }
-  button:nth-of-type(1) {
+  a:nth-of-type(1) {
     color: white;
   }
-  button:nth-of-type(2) {
+  a:nth-of-type(2) {
     @apply ml-3 md:ml-5;
   }
 }

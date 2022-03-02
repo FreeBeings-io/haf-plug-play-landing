@@ -1,13 +1,9 @@
 <template>
-  <div class="content" id="faq">
-    <div class="mx-0 md:mx-auto text-left md:text-center">
-      <h1>FAQ</h1>
-      <span>Frequently Asked Questions</span>
-    </div>
+  <Screen title="FAQ" bio="Frequently Asked Questions" id="faq">
     <div class="mt-3 w-full">
       <Accordion :items="myItems" :borderColor="'none'" />
     </div>
-  </div>
+  </Screen>
 </template>
 
 <script>
@@ -40,26 +36,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-.content {
-  @apply w-full;
-  position: relative;
-  z-index: 5;
-
-  h1:first-child {
-    font-family: "Fira Code", monospace;
-    font-weight: 700;
-    line-height: 63px;
-    letter-spacing: -0.03em;
-    @apply mb-5 text-3xl md:text-5xl;
-  }
-
-  span {
-    color: #767676;
-    font-weight: 500;
-    line-height: 28px;
-    @apply text-base md:text-lg;
-  }
-}
-</style>

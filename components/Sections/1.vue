@@ -1,17 +1,12 @@
 <template>
-  <div id="developers">
-    <div class="content">
-      <div class="mx-auto text-left md:text-center">
-        <h1>Made by developers, for developers</h1>
-        <span
-          >Spreuke is a tool for developers to easily build and deploy dApps on
-          the
-          <br />
-          Hive blockchain.</span
-        >
-        <img src="img6.svg" class="flex justify-center mx-auto mt-14" alt="" />
-      </div>
-    </div>
+  <div>
+    <Screen
+      title="Made by developers, for developers"
+      bio="Spreuke is a tool for developers to easily build and deploy dApps on the Hive blockchain"
+      id="developers"
+    >
+      <img src="img6.svg" class="flex justify-center mx-auto mt-14" alt="" />
+    </Screen>
     <div class="frame12"></div>
     <div class="frame14"></div>
   </div>
