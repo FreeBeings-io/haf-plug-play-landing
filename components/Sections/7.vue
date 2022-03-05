@@ -4,7 +4,7 @@
       <div class="card-start mb-5 md:mb-44">
         <h1>Get started with Hive Plug & Play today</h1>
         <p>
-          Hive Plug & Play is a customizable layer 2 microservice that simplifies buidling custom_json centric dApps on the Hive blockchain.
+          User the power of custom_json operations on the Hive Blockchain and build your dream dApp.
         </p>
         <button>
           <NuxtLink to="/contact" class="contact">Contact us</NuxtLink>
