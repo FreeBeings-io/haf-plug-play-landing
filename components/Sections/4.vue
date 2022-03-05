@@ -7,7 +7,7 @@
   >
     <CardExtended
       title="Polls"
-      description="Features you can freely add to your dApp, available on Hive Plug & Play right now."
+      description="Enabling users to capture the quantitative distribution of opinions and reach public consensus"
       background="#EFF0F9;"
       accent="#0080FF"
       image="img6.svg"
