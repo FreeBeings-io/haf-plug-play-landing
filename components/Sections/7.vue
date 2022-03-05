@@ -7,7 +7,9 @@
           Spreuke is a tool for developers to easily build and deploy dApps on
           the Hive blockchain.
         </p>
-        <button>Contact us</button>
+        <button>
+          <NuxtLink to="/contact" class="contact">Contact us</NuxtLink>
+        </button>
 
         <img src="decor3.svg" class="decor3" alt="" />
         <img src="decor4.svg" class="decor4" alt="" />
@@ -54,9 +56,12 @@ export default {};
       @apply mt-2 text-base md:text-lg;
     }
     button {
-      border-radius: 5px;
-      background: white;
-      @apply px-24 py-3 w-full md:w-auto mt-8 md:mt-14 transition-all duration-500 ease-in-out hover:opacity-70;
+      @apply mt-8 md:mt-14 mb-5 md:mb-0;
+      .contact {
+        border-radius: 5px;
+        background: white;
+        @apply px-24 py-3 w-full md:w-auto  transition-all duration-500 ease-in-out hover:opacity-70;
+      }
     }
     .decor3 {
       @apply hidden md:block;
