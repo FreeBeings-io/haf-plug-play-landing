@@ -1,6 +1,6 @@
 <template>
   <Screen
-    title="Our Protocols"
+    title="Public Protocols"
     bio="Features you can freely add to your dApp, available on Hive Plug & Play
         right now."
     id="api"
