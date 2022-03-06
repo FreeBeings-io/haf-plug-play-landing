@@ -10,21 +10,11 @@
     <div class="mb-10 mx-5 md:mx-44">
       <One />
       <Two />
-      <div class="mt-24 md:mt-64">
-        <Three />
-      </div>
-      <div class="mt-24 md:mt-52">
-        <Four />
-      </div>
-      <div class="mt-24 md:mt-52">
-        <Five />
-      </div>
-      <div class="mt-24 md:mt-52">
-        <Six />
-      </div>
-      <div class="mt-24 md:mt-52">
-        <Seven />
-      </div>
+      <Three />
+      <Four />
+      <Five />
+      <Six />
+      <Seven />
     </div>
 
     <Footer />

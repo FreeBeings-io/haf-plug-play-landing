@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="contact">
     <div class="content">
       <div class="card-start mb-5 md:mb-44">
         <h1>Get started with Hive today</h1>
@@ -95,7 +95,7 @@ export default {};
   height: 20rem;
   left: 202px;
   background: #7000ff;
-  top: 350rem;
+  top: 380rem;
   filter: blur(400px);
 }
 .frame4 {
@@ -104,7 +104,7 @@ export default {};
   width: 20rem;
   height: 20rem;
   left: 577px;
-  top: 350rem;
+  top: 380rem;
   background: #ff00c7;
   filter: blur(400px);
 }

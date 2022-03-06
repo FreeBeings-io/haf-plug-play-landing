@@ -46,7 +46,7 @@ export default {};
 <style lang="scss" scoped>
 .hero {
   position: relative;
-  @apply my-44 flex flex-col md:flex-row justify-between;
+  @apply pt-60 pb-24 flex flex-col md:flex-row justify-between;
   z-index: 5;
 
   .ls {
@@ -59,7 +59,13 @@ export default {};
         color: #151617;
         @apply mb-5 text-7xl;
         strong {
-          color: #ff0000;
+          background: -webkit-linear-gradient(
+            78.18deg,
+            #000000 8.97%,
+            #ff0000 72.35%
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
         }
       }
 

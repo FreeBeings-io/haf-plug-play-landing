@@ -2,9 +2,9 @@
   <nav id="nav">
     <div class="container mx-auto">
       <div class="flex items-center justify-between">
-        <div>
+        <a href="/">
           <img src="logo.svg" alt="" />
-        </div>
+        </a>
 
         <div class="hidden sm:flex sm:items-center">
           <div class="items">
@@ -20,7 +20,7 @@
         </div>
 
         <div class="hidden sm:flex sm:items-center">
-          <button class="main">Get started</button>
+          <NuxtLink class="main" to="#contact">Get started</NuxtLink>
         </div>
 
         <button
@@ -49,25 +49,13 @@
       <div class="bg-white border-t-2 py-2" :class="open ? 'block' : 'hidden'">
         <div class="flex flex-col">
           <a
-            href="#"
+            v-for="item in arr"
+            v-bind:key="item.index"
+            :to="item.href"
             class="text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1"
-            >Products</a
           >
-          <a
-            href="#"
-            class="text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1"
-            >Marketplace</a
-          >
-          <a
-            href="#"
-            class="text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1"
-            >Partners</a
-          >
-          <a
-            href="#"
-            class="text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1"
-            >Pricing</a
-          >
+            {{ item.title }}
+          </a>
         </div>
       </div>
     </div>
@@ -86,15 +74,15 @@ export default {
         },
         {
           href: "#ecosystem",
-          title: "Ecosystem",
+          title: "Getting Started",
         },
         {
           href: "#wallet",
-          title: "Wallet",
+          title: "Integrations",
         },
         {
           href: "#api",
-          title: "API",
+          title: "Public Protocols",
         },
         {
           href: "#faq",

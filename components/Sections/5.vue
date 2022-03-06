@@ -5,14 +5,14 @@
     class="content"
   >
     <div class="mt-14">
-      <div class="t">
+      <a class="t" href="https://hive.blog/@brianoflondon" target="_blank">
         <img src="brianoflondon.png" />
         <h1>@brianoflondon</h1>
         <span
           >Buy and sell popular digital currencies, keep track of them in the
           one place.</span
         >
-      </div>
+      </a>
     </div>
   </Screen>
 </template>
