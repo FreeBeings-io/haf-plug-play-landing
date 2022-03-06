@@ -20,7 +20,7 @@ export default {
 
 <style lang="scss" scoped>
 .content {
-  @apply w-full py-0 md:py-32;
+  @apply w-full py-16 md:py-32;
   position: relative;
   z-index: 5;
 

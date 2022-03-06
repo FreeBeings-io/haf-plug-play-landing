@@ -21,11 +21,11 @@
         <img src="server-icon.svg" alt="" />
         <h1>Serverless deployment</h1>
         <span
-          >Leverage our public node to develop and deploy without setting up your own server.
+          >Leverage our public node to develop and deploy without setting up
+          your own server.
           <br />
           Just define your APIs and database schemas, and we’ll handle the rest.
-          </span
-        >
+        </span>
       </div>
       <div class="feature">
         <img src="cloud-icon.svg" alt="" />
@@ -45,7 +45,7 @@ export default {};
 <style lang="scss" scoped>
 .hero {
   position: relative;
-  @apply pt-60 pb-24 flex flex-col md:flex-row justify-between;
+  @apply pt-44 md:pt-60 pb-24 flex flex-col md:flex-row justify-between;
   z-index: 5;
 
   .ls {
