@@ -5,7 +5,7 @@
         <div
           class="opacity-60 text-sm flex flex-col md:flex-row justify-center md:justify-between"
         >
-          <span>© 2022 Hive Plug & Play · All rights reserved.</span>
+          <span>© 2022 FreeBeings</span>
         </div>
       </div>
     </div>

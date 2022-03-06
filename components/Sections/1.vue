@@ -2,7 +2,8 @@
   <div id="developers">
     <Screen
       title="Made by developers, for developers"
-      bio="Spreuke is a tool for developers to easily build and deploy dApps on the Hive blockchain"
+      bio="The power and flexibility of PostgreSQL coupled with versatile API design and the freedom of blockchain"
+      id="developers"
     >
       <img src="img6.svg" class="flex justify-center mx-auto mt-14" alt="" />
     </Screen>

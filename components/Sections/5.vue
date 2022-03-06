@@ -9,8 +9,7 @@
         <img src="brianoflondon.png" />
         <h1>@brianoflondon</h1>
         <span
-          >Buy and sell popular digital currencies, keep track of them in the
-          one place.</span
+          ></span
         >
       </a>
     </div>

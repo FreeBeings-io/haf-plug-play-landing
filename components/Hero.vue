@@ -21,11 +21,10 @@
         <img src="server-icon.svg" alt="" />
         <h1>Serverless deployment</h1>
         <span
-          >Leverage our public node to develop and deploy without setting up
+          >Leverage our public node to develop and deploy without setting up your own server.
           <br />
-          your own server. Just define your APIs and database schemas, and
-          <br />
-          we’ll handle the rest</span
+          Just define your APIs and database schemas, and we’ll handle the rest.
+          </span
         >
       </div>
       <div class="feature">

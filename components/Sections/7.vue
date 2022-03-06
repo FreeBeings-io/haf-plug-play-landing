@@ -2,10 +2,9 @@
   <div id="contact">
     <div class="content">
       <div class="card-start mb-5 md:mb-44">
-        <h1>Get started with Hive today</h1>
+        <h1>Get started with Hive Plug & Play today</h1>
         <p>
-          Spreuke is a tool for developers to easily build and deploy dApps on
-          the Hive blockchain.
+          User the power of custom_json operations on the Hive Blockchain and build your dream dApp.
         </p>
         <button>
           <NuxtLink to="/contact" class="contact">Contact us</NuxtLink>
