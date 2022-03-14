@@ -2,7 +2,7 @@
   <div class="card-component" :style="'background-color:' + background">
     <div>
       <h1>{{ title }}</h1>
-      <div class="w-full md:w-4/6">
+      <div>
         <span>{{ description }}</span>
       </div>
       <div class="flex my-10 md:my-0">
@@ -24,9 +24,6 @@
         </a>
       </div>
     </div>
-    <div>
-      <img :src="image" alt="" srcset="" />
-    </div>
   </div>
 </template>
 
@@ -46,7 +43,7 @@ export default {
 
 <style lang="scss" scoped>
 .card-component {
-  @apply px-5 py-8 md:py-16 md:px-16 w-full flex flex-col flex-col-reverse md:flex-row justify-between items-center my-14 rounded-xl md:rounded-2xl;
+  @apply px-5 py-8 md:py-16 md:px-16 w-full md:w-2/4 flex flex-col flex-col-reverse md:flex-row items-center my-14 rounded-xl md:rounded-2xl;
   h1 {
     font-family: "Fira Code", monospace;
     font-weight: bold;

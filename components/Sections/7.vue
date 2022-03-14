@@ -4,7 +4,8 @@
       <div class="card-start mb-5 md:mb-44">
         <h1>Get started with Hive Plug & Play today</h1>
         <p>
-          User the power of custom_json operations on the Hive Blockchain and build your dream dApp.
+          User the power of custom_json operations on the Hive Blockchain and
+          build your dream dApp.
         </p>
         <button>
           <NuxtLink to="/contact" class="contact">Contact us</NuxtLink>
@@ -65,8 +66,8 @@ export default {};
     .decor3 {
       @apply hidden md:block;
       position: absolute;
-      left: 15%;
-      top: 28%;
+      left: 10%;
+      top: 31.5%;
       transform: rotate(-90.63deg);
       @apply w-10 h-10;
     }
@@ -94,7 +95,7 @@ export default {};
   height: 20rem;
   left: 202px;
   background: #7000ff;
-  top: 380rem;
+  top: 330rem;
   filter: blur(400px);
 }
 .frame4 {
@@ -103,7 +104,7 @@ export default {};
   width: 20rem;
   height: 20rem;
   left: 577px;
-  top: 380rem;
+  top: 330rem;
   background: #ff00c7;
   filter: blur(400px);
 }

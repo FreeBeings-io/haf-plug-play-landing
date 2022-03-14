@@ -14,7 +14,9 @@
           </span>
         </div>
       </div>
-      <button>Get Started</button>
+      <a href="#contact">
+        <button>Get Started</button>
+      </a>
     </div>
     <div class="rs">
       <div class="feature">
