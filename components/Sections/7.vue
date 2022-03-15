@@ -2,6 +2,8 @@
   <div id="contact">
     <div class="content">
       <div class="card-start mb-5 md:mb-44">
+        <img src="decor3.svg" class="decor3" alt="" />
+
         <h1>Get started with Hive Plug & Play today</h1>
         <p>
           Use the power of custom_json operations on the Hive Blockchain and
@@ -11,7 +13,6 @@
           <NuxtLink to="/contact" class="contact">Contact us</NuxtLink>
         </button>
 
-        <img src="decor3.svg" class="decor3" alt="" />
         <img src="decor4.svg" class="decor4" alt="" />
         <img src="decor5.svg" class="decor5" alt="" />
       </div>
@@ -66,8 +67,6 @@ export default {};
     .decor3 {
       @apply hidden md:block;
       position: absolute;
-      left: 10%;
-      top: 31.5%;
       transform: rotate(-90.63deg);
       @apply w-10 h-10;
     }
