@@ -29,7 +29,7 @@ export default {
         {
           title: "What kind of apps are supported?",
           value:
-            "Any idea/app you have that leverages custom_json ops on the Hive blockchain can leverage Hive Plug & Play",
+            "Any idea/app you have that leverages custom_json ops on the Hive blockchain can integrate Hive Plug & Play",
         },
       ],
     };
