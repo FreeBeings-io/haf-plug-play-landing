@@ -1,7 +1,7 @@
 <template>
   <Screen
     title="Get started easily"
-    bio="Start developing using this easy steps"
+    bio="Start developing using these easy steps"
     id="ecosystem"
   >
     <div class="mt-14 grid grid-cols-1 md:grid-cols-3 mx-auto">
