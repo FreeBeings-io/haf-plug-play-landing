@@ -3,7 +3,7 @@
     title="Who is using Hive Plug & Play?"
     bio="Spreuke is a tool for developers to easily build and deploy dApps on
         the Hive blockchain."
-    id="wallet"
+    id="integrations"
   >
     <div class="mt-24 flex justify-start md:justify-center">
       <img

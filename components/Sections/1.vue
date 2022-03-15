@@ -15,10 +15,10 @@
         >
           <div class="w-20 h-20 relative mr-5">
             <div
-              class="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1 shadow-inner shadow-lg"
+              class="absolute top-0 right-0 bg-indigo-300 rounded w-16 h-16 mt-2 mr-1 shadow-lg"
             ></div>
             <div
-              class="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3"
+              class="absolute text-white bottom-0 left-0 bg-gradient-t rounded w-16 h-16 flex items-center justify-center mt-2 mr-3"
             >
               <img :src="item.img" alt="drawer" />
             </div>
@@ -42,19 +42,19 @@ export default {
     return {
       features: [
         {
-          img: "https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG1.svg",
+          img: "database.svg",
           desc: "Use the power and flexibility of PostgreSQL to create your data sets",
         },
         {
-          img: "https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG2.svg",
+          img: "fastapi-icon.svg",
           desc: "Create your APIs using FastAPI, which leverages OpenAPI",
         },
         {
-          img: "https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG3.svg",
+          img: "server.svg",
           desc: "Choose to run your own server or use the public node that's free forever",
         },
         {
-          img: "https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG4.svg",
+          img: "support.svg",
           desc: "Get consultation and support from our team (we’re also building dApps on Hive)",
         },
       ],
@@ -64,6 +64,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.bg-gradient-t {
+  background: -webkit-linear-gradient(50.18deg, #7670d6 8.97%, #00d9ff 72.35%);
+}
+
 .frame12 {
   @apply hidden md:block;
   position: absolute;

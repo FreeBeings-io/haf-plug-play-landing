@@ -1,6 +1,6 @@
 <template>
   <Screen
-    title="Get Started, as easy as 123"
+    title="Get started easily"
     bio="Start developing using this easy steps"
     id="ecosystem"
   >

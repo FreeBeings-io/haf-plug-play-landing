@@ -18,6 +18,6 @@ export default {};
 
 <style>
 .footer {
-  background: rgba(21, 22, 23, 1);
+  background: #151617;
 }
 </style>

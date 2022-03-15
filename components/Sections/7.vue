@@ -4,7 +4,7 @@
       <div class="card-start mb-5 md:mb-44">
         <h1>Get started with Hive Plug & Play today</h1>
         <p>
-          User the power of custom_json operations on the Hive Blockchain and
+          Use the power of custom_json operations on the Hive Blockchain and
           build your dream dApp.
         </p>
         <button>

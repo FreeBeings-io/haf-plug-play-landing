@@ -77,7 +77,7 @@ export default {
           title: "Getting Started",
         },
         {
-          href: "#wallet",
+          href: "#integrations",
           title: "Integrations",
         },
         {
