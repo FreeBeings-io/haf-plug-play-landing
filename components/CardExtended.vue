@@ -14,14 +14,14 @@
           <img src="document-icon.svg" alt="" />
           API Documentation
         </a>
-        <a
+        <NuxtLink
           :style="'border: 2px solid' + accent"
-          :href="opsLink"
+          :to="opsLink"
           target="_blank"
         >
           <img src="volume-icon.svg" alt="" />
           Broadcast Ops
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </div>
