@@ -1,7 +1,7 @@
 <template>
   <Screen
     title="Who is using Hive Plug & Play?"
-    bio="Spreuke is a tool for developers to easily build and deploy dApps on
+    bio="A tool for developers to easily build and deploy dApps on
         the Hive blockchain."
     id="integrations"
   >
