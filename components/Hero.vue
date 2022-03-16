@@ -24,9 +24,7 @@
         <h1>Serverless deployment</h1>
         <span
           >Leverage our public node to develop and deploy without setting up
-          your own server.
-          <br />
-          Just define your APIs and database schemas, and we’ll handle the rest.
+          your own server. Just define your APIs and database schemas, and we’ll handle the rest.
         </span>
       </div>
       <div class="feature">
