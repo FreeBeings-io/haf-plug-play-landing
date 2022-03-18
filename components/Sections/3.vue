@@ -1,8 +1,7 @@
 <template>
   <Screen
     title="Who is using Hive Plug & Play?"
-    bio="A tool for developers to easily build and deploy dApps on
-        the Hive blockchain."
+    bio="Platforms that have already integrated."
     id="integrations"
   >
     <div class="mt-24 flex justify-start md:justify-center">
