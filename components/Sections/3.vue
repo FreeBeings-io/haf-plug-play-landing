@@ -6,12 +6,20 @@
     id="integrations"
   >
     <div class="mt-24 flex justify-start md:justify-center">
-      <img
-        src="peakd.svg"
-        class="mr-3 md:mr-32 w-5/12 md:w-auto h-5/12 md:h-auto"
-        alt=""
-      />
-      <img src="podping.svg" class="w-5/12 md:w-auto h-5/12 md:h-auto" alt="" />
+      <a href="https://peakd.com" target="_blank" rel="noopener noreferrer">
+        <img
+          src="peakd.svg"
+          class="mr-3 md:mr-32 w-5/12 md:w-auto h-5/12 md:h-auto"
+          alt=""
+        />
+      </a>
+      <a href="https://podping.org/" target="_blank" rel="noopener noreferrer">
+        <img
+          src="podping.svg"
+          class="w-5/12 md:w-auto h-5/12 md:h-auto"
+          alt=""
+        />
+      </a>
     </div>
   </Screen>
 </template>
