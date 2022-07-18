@@ -6,4 +6,4 @@ RUN yarn install
 COPY . ./
 RUN yarn build
 EXPOSE $PORT
-CMD [ "PORT=$PORT yarn start" ]
+CMD [ "export PORT=$PORT && yarn start" ]
