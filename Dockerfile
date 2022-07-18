@@ -5,6 +5,7 @@ FROM node:14 AS build
 WORKDIR /app
 
 COPY . .
+RUN yarn install
 RUN yarn build
 
 FROM nginx:stable
