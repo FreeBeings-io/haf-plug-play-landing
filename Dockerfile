@@ -6,7 +6,7 @@ WORKDIR /app
 
 COPY . .
 RUN yarn install
-RUN yarn build
+RUN yarn generate
 
 FROM nginx:stable
 RUN echo $NGINX_CONFIG > /etc/nginx/conf.d/default.conf
