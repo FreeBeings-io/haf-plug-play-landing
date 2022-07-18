@@ -10,7 +10,7 @@ RUN yarn generate
 
 FROM nginx:stable
 RUN echo $NGINX_CONFIG > /etc/nginx/conf.d/default.conf
-COPY — from=build /app/build/ /var/www/
+COPY — from=build /app/dist/ /var/www/
 
 EXPOSE $PORT
 CMD ["nginx -g 'daemon off;'"]
