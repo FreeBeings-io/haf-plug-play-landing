@@ -1,9 +1,15 @@
 ARG PORT
-FROM node:14
+ARG NGINX_CONFIG
+
+FROM node:14 AS build
 WORKDIR /app
 
-COPY . ./
-RUN npm install
-RUN npm build
+COPY . .
+RUN yarn build
+
+FROM nginx:stable
+RUN echo $NGINX_CONFIG > /etc/nginx/conf.d/default.conf
+COPY — from=build /app/build/ /var/www/
+
 EXPOSE $PORT
-CMD [ "npm start" ]
+CMD ["nginx -g 'daemon off;'"]
