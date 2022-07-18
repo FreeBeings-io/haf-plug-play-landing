@@ -1,16 +1,15 @@
-ARG PORT
-ARG NGINX_CONFIG
+FROM node:14
 
-FROM node:14 AS build
-WORKDIR /app
+RUN mkdir -p /usr/src/nuxt-app
+WORKDIR /usr/src/nuxt-app
 
-COPY . .
-RUN yarn install
-RUN yarn generate
+COPY . /usr/src/nuxt-app/
+RUN npm install
+RUN npm run build
 
-FROM nginx:stable
-RUN echo $NGINX_CONFIG > /etc/nginx/conf.d/default.conf
-COPY — from=build /app/dist/ /var/www/
+EXPOSE 3000
 
-EXPOSE $PORT
-CMD ["nginx -g 'daemon off;'"]
+ENV NUXT_HOST=0.0.0.0
+ENV NUXT_PORT=3000
+
+CMD [ "npm", "start" ]
