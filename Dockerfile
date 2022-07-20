@@ -1,15 +1,16 @@
 ARG PORT
-FROM node:16
+FROM node:14
 
-WORKDIR /app
-COPY . /app
+WORKDIR /usr/src/app
 
-RUN yarn install
-RUN yarn build
-RUN yarn generate
+COPY . ./
+RUN yarn
 
 EXPOSE $PORT
 
-ENV NUXT_HOST=0.0.0.0
+ENV HOST=0.0.0.0
+ENV PORT=$PORT
 
-CMD yarn start
+RUN yarn build
+
+CMD [ "yarn", "start" ]
